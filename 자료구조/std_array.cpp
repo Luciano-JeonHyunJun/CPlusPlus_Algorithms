@@ -5,7 +5,7 @@ using namespace std;
 int main () 
 {
 
-    // 일반적인int 타입 배열
+     // 일반적인int 타입 배열
     int a[10] { 1 , 2 , 3 , 4 , 5 , 6 ,  7 , 8 , 9 , 10 };
 
     // int타입의 STL array
@@ -13,6 +13,11 @@ int main ()
 
     cout << b.data() << endl;
     cout << *b.begin() << " " << *(b.end()) << endl;
+    cout << b.front() << " " << b.back() << endl; // 제일 앞과 뒤를 알려줌
+    cout << b.empty() << endl; // b 라는 array에 원소가 있어서 0(false)를 출력
+    cout << b.size() << endl; // b라는 행렬에 크기를 알려줌
+    cout << b.max_size() << endl; // 최대 원소갯수
+ 
 
 
     return 0;

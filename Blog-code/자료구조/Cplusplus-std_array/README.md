@@ -1,3 +1,3 @@
 # CPlusPlus_Algorithms
 
-[C++ std::array이해하기](https://velog.io/@jhj091542/Cplusplusstdarray-이해하기)
+

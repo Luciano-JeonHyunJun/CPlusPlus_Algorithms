@@ -1,3 +1,0 @@
-# CPlusPlus_Algorithms
-
-

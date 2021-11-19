@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
-int main(){
- 
-  	vector<int> v; //int 타입 vector 생성
+int main()
+{
+
+	vector<int> v; //int 타입 vector 생성
 	
 	vector<int>v = {1,2,3,4};
 
@@ -16,7 +16,14 @@ int main(){
 	vector<vector<int>>v; //2차원 벡터 생성 (행과 열 모두 가변)
 
 	
-  
-  
-  
+
+
+	
+
+
+
+
+
+
+	return 0;
 }

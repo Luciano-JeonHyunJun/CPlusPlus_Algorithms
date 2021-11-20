@@ -1,4 +1,3 @@
-#include <algorithm>
 #include <iostream>
 #include <list>
 using namespace std;
@@ -12,8 +11,8 @@ int main()
 	nums.emplace_back(6);
 	nums.emplace_front(0);
 	
-	auto it = find(nums.begin(),nums.end(), 3); // 3ÀÌ¶ó´Â element ¸¦ Ã£Àº ÈÄ ±× À§Ä¡¿¡ 100ÀÌ¶ó´Â ¼ıÀÚ¸¦ ´ëÀÔ 
-	if (it != nums.end()) // ¸¸¾à 3 ÀÌ ¾ø´Â °æ¿ì¸¦ À§ÇØ Á¶°ÇÀ» °Ë 
+	auto it = find(nums.begin(),nums.end(), 3); // 3ì´ë¼ëŠ” element ë¥¼ ì°¾ì€ í›„ ê·¸ ìœ„ì¹˜ì— 100ì´ë¼ëŠ” ìˆ«ìë¥¼ ëŒ€ì… 
+	if (it != nums.end()) // ë§Œì•½ 3 ì´ ì—†ëŠ” ê²½ìš°ë¥¼ ìœ„í•´ ì¡°ê±´ì„ ê²€ 
 	{
 		nums.emplace(it, 100);
 	}
